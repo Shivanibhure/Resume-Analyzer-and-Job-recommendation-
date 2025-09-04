@@ -5,19 +5,11 @@ __pycache__/
 *.pyd
 
 # Virtual environment
-venv/
-resume/
-Lib/
-Scripts/
 
-# Django
-db.sqlite3
-media/
-staticfiles/
 
 # VS Code
-resumes/
-.vscode/
-ca.pem
-.env
+*resumes/
+
+*ca.pem
+*.env
 pyvenv.cfg
