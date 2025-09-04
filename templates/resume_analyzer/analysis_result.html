@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="card shadow p-5 mx-auto" style="max-width: 960px;">
+    {{ analysis|safe }}
+    <div class="text-end">
+      <a href="{% url 'upload_resume' %}" class="btn btn-outline-primary mt-4">Analyze Another Resume</a>
+    </div>
+  </div>
+{% endblock %}
